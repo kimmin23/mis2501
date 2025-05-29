@@ -1,19 +1,84 @@
-<html>
-  <head>
-    <title>김민성의 웹페이지</title>
-  </head>
-  <body>
-    <h1>IT 기사 모음</h1>
-    <a href="https://v.daum.net/v/20250311180131535" target="_blank">첫 번째 IT 기사</a>
-    <a href="https://n.news.naver.com/mnews/article/009/0005460837" target="_blank">두 번째 IT 기사</a>
-    <a href="https://v.daum.net/v/20250318072355303" target="_blank">세 번째 IT 기사</a>
-    <a href="https://v.daum.net/v/20250331083130911" target="_blank">네 번째 IT 기사</a>
-    <a href="https://n.news.naver.com/mnews/article/031/0000922979" target="_blank">다섯 번째 IT 기사</a>
-    <a href="https://v.daum.net/v/20250415181220571" target="_blank">여섯 번째 IT 기사</a>
-    <a href="https://v.daum.net/v/20250429202747138" target="_blank">일곱 번째 IT 기사</a>
-    <a href="https://v.daum.net/v/20250430130529207" target="_blank">여덟 번째 IT 기사</a>
-    <a href="https://v.daum.net/v/20250511185034396" target="_blank">아홉 번째 IT 기사</a>
-    <a href="https://v.daum.net/v/20250519172114614" target="_blank">열 번째 IT 기사</a>
-    
-  </body>
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <title>김민성의 웹페이지</title>
+  <style>
+    body {
+      font-family: 'Apple SD Gothic Neo', 'Malgun Gothic', sans-serif;
+      background-color: #f4f6f8;
+      margin: 0;
+      padding: 0;
+    }
+
+    header {
+      background-color: #2c3e50;
+      color: white;
+      padding: 20px 0;
+      text-align: center;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    }
+
+    h1 {
+      margin: 0;
+      font-size: 2em;
+    }
+
+    main {
+      padding: 30px 20px;
+      max-width: 800px;
+      margin: 0 auto;
+    }
+
+    .article-list {
+      list-style-type: none;
+      padding: 0;
+    }
+
+    .article-list li {
+      background-color: #ffffff;
+      margin-bottom: 12px;
+      padding: 15px 20px;
+      border-radius: 8px;
+      transition: transform 0.2s, box-shadow 0.2s;
+      box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+    }
+
+    .article-list li:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+    }
+
+    .article-list a {
+      text-decoration: none;
+      color: #2c3e50;
+      font-weight: bold;
+      font-size: 1.1em;
+    }
+
+    .article-list a:hover {
+      color: #3498db;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>김민성의 IT 기사 모음</h1>
+  </header>
+
+  <main>
+    <ul class="article-list">
+      <li><a href="https://v.daum.net/v/20250311180131535" target="_blank">첫 번째 IT 기사</a></li>
+      <li><a href="https://n.news.naver.com/mnews/article/009/0005460837" target="_blank">두 번째 IT 기사</a></li>
+      <li><a href="https://v.daum.net/v/20250318072355303" target="_blank">세 번째 IT 기사</a></li>
+      <li><a href="https://v.daum.net/v/20250331083130911" target="_blank">네 번째 IT 기사</a></li>
+      <li><a href="https://n.news.naver.com/mnews/article/031/0000922979" target="_blank">다섯 번째 IT 기사</a></li>
+      <li><a href="https://v.daum.net/v/20250415181220571" target="_blank">여섯 번째 IT 기사</a></li>
+      <li><a href="https://v.daum.net/v/20250429202747138" target="_blank">일곱 번째 IT 기사</a></li>
+      <li><a href="https://v.daum.net/v/20250430130529207" target="_blank">여덟 번째 IT 기사</a></li>
+      <li><a href="https://v.daum.net/v/20250511185034396" target="_blank">아홉 번째 IT 기사</a></li>
+      <li><a href="https://v.daum.net/v/20250519172114614" target="_blank">열 번째 IT 기사</a></li>
+    </ul>
+  </main>
+</body>
 </html>
